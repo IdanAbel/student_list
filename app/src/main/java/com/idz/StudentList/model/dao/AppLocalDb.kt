@@ -1,10 +1,10 @@
-package com.idz.colman24class2.model.dao
+package com.idz.StudentList.model.dao
 
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.idz.colman24class2.base.MyApplication
-import com.idz.colman24class2.model.Student
+import com.idz.StudentList.base.MyApplication
+import com.idz.StudentList.model.Student
 
 @Database(entities = [Student::class], version = 2)
 abstract class AppLocalDbRepository: RoomDatabase() {

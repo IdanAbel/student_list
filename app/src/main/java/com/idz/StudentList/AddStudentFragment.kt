@@ -1,4 +1,4 @@
-package com.idz.colman24class2
+package com.idz.StudentList
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,9 +11,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.navigation.Navigation
-import com.idz.colman24class2.databinding.FragmentAddStudentBinding
-import com.idz.colman24class2.model.Model
-import com.idz.colman24class2.model.Student
+import com.idz.StudentList.databinding.FragmentAddStudentBinding
+import com.idz.StudentList.model.Model
+import com.idz.StudentList.model.Student
 
 class AddStudentFragment : Fragment() {
 

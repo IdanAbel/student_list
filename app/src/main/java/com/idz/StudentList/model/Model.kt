@@ -1,11 +1,11 @@
-package com.idz.colman24class2.model
+package com.idz.StudentList.model
 
 import android.os.Looper
 import androidx.core.os.HandlerCompat
-import com.idz.colman24class2.base.EmptyCallback
-import com.idz.colman24class2.base.StudentsCallback
-import com.idz.colman24class2.model.dao.AppLocalDb
-import com.idz.colman24class2.model.dao.AppLocalDbRepository
+import com.idz.StudentList.base.EmptyCallback
+import com.idz.StudentList.base.StudentsCallback
+import com.idz.StudentList.model.dao.AppLocalDb
+import com.idz.StudentList.model.dao.AppLocalDbRepository
 import java.util.concurrent.Executors
 
 interface GetAllStudentsListener {

@@ -1,4 +1,4 @@
-package com.idz.colman24class2.model
+package com.idz.StudentList.model
 
 import android.util.Log
 import com.google.firebase.Firebase
@@ -6,9 +6,9 @@ import com.google.firebase.auth.auth
 import com.google.firebase.firestore.firestore
 import com.google.firebase.firestore.firestoreSettings
 import com.google.firebase.firestore.memoryCacheSettings
-import com.idz.colman24class2.base.Constants
-import com.idz.colman24class2.base.EmptyCallback
-import com.idz.colman24class2.base.StudentsCallback
+import com.idz.StudentList.base.Constants
+import com.idz.StudentList.base.EmptyCallback
+import com.idz.StudentList.base.StudentsCallback
 
 class FirebaseModel {
 

@@ -1,4 +1,4 @@
-package com.idz.colman24class2
+package com.idz.StudentList
 
 import org.junit.Test
 

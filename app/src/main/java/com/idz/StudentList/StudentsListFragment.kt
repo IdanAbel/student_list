@@ -1,4 +1,4 @@
-package com.idz.colman24class2
+package com.idz.StudentList
 
 import android.os.Bundle
 import android.util.Log
@@ -11,10 +11,10 @@ import android.widget.ProgressBar
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.idz.colman24class2.adapter.StudentsRecyclerAdapter
-import com.idz.colman24class2.databinding.FragmentStudentsListBinding
-import com.idz.colman24class2.model.Model
-import com.idz.colman24class2.model.Student
+import com.idz.StudentList.adapter.StudentsRecyclerAdapter
+import com.idz.StudentList.databinding.FragmentStudentsListBinding
+import com.idz.StudentList.model.Model
+import com.idz.StudentList.model.Student
 
 class StudentsListFragment : Fragment() {
 

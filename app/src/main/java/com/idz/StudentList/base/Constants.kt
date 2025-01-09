@@ -1,6 +1,6 @@
-package com.idz.colman24class2.base
+package com.idz.StudentList.base
 
-import com.idz.colman24class2.model.Student
+import com.idz.StudentList.model.Student
 
 typealias StudentsCallback = (List<Student>) -> Unit
 typealias EmptyCallback = () -> Unit

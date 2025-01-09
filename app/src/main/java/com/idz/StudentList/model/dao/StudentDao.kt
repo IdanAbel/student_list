@@ -1,11 +1,11 @@
-package com.idz.colman24class2.model.dao
+package com.idz.StudentList.model.dao
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.idz.colman24class2.model.Student
+import com.idz.StudentList.model.Student
 
 @Dao
 interface StudentDao {

@@ -1,4 +1,4 @@
-package com.idz.colman24class2
+package com.idz.StudentList
 
 import android.os.Bundle
 import android.util.Log
@@ -13,8 +13,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.idz.colman24class2.model.Model
-import com.idz.colman24class2.model.Student
+import com.idz.StudentList.model.Model
+import com.idz.StudentList.model.Student
 
 class StudentsListViewActivity : AppCompatActivity() {
 

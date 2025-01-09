@@ -1,4 +1,4 @@
-package com.idz.colman24class2.model
+package com.idz.StudentList.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

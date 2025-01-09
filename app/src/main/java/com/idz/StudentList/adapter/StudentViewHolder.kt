@@ -1,12 +1,12 @@
-package com.idz.colman24class2.adapter
+package com.idz.StudentList.adapter
 
 import android.view.View
 import android.widget.CheckBox
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.idz.colman24class2.OnItemClickListener
-import com.idz.colman24class2.R
-import com.idz.colman24class2.model.Student
+import com.idz.StudentList.OnItemClickListener
+import com.idz.StudentList.R
+import com.idz.StudentList.model.Student
 
 class StudentViewHolder(
     itemView: View,

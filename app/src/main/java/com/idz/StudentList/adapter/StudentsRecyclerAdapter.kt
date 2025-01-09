@@ -1,11 +1,11 @@
-package com.idz.colman24class2.adapter
+package com.idz.StudentList.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.idz.colman24class2.OnItemClickListener
-import com.idz.colman24class2.R
-import com.idz.colman24class2.model.Student
+import com.idz.StudentList.OnItemClickListener
+import com.idz.StudentList.R
+import com.idz.StudentList.model.Student
 
 class StudentsRecyclerAdapter(private var students: List<Student>?): RecyclerView.Adapter<StudentViewHolder>() {
 

@@ -1,4 +1,4 @@
-package com.idz.colman24class2
+package com.idz.an24class2
 
 import android.content.Context
 import android.os.Bundle
