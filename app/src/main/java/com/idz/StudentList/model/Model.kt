@@ -51,4 +51,18 @@ class Model private constructor() {
 //            }
 //        }
     }
+
+    fun deleteStudentById(studentId: String, callback: EmptyCallback) {
+        firebaseModel.deleteStudentById(studentId, callback)
+//
+//        executor.execute {
+//            val students = database.studentDao().getAllStudents()
+//
+//            Thread.sleep(4000)
+//
+//            mainHandler.post {
+//                callback(students)
+//            }
+//        }
+    }
 }

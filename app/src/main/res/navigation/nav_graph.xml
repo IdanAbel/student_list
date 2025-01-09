@@ -11,17 +11,60 @@
         android:label="Students List"
         tools:layout="@layout/fragment_students_list">
         <action
-            android:id="@+id/action_studentsListFragment_to_blueFragment"
-            app:destination="@id/blueFragment" />
+            android:id="@+id/action_studentsListFragment_to_studentDetailsFragment"
+            app:destination="@id/studentDetailsFragment" />
     </fragment>
     <fragment
-        android:id="@+id/blueFragment"
-        android:name="com.idz.StudentList.BlueFragment"
-        android:label="fragment_blue"
-        tools:layout="@layout/fragment_blue" >
+        android:id="@+id/studentDetailsFragment"
+        android:name="com.idz.StudentList.StudentDetailsFragment"
+        android:label="Student Details"
+        tools:layout="@layout/fragment_student_details" >
         <argument
-            android:name="studentTitle"
+            android:name="studentName"
             app:argType="string" />
+        <argument
+            android:name="studentId"
+            app:argType="string" />
+        <argument
+            android:name="studentPhone"
+            app:argType="string" />
+        <argument
+            android:name="studentAddress"
+            app:argType="string" />
+        <argument
+            android:name="studentIsChecked"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_studentDetailsFragment_to_studentEditFragment"
+            app:destination="@id/editStudentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editStudentFragment"
+        android:name="com.idz.StudentList.EditStudentFragment"
+        android:label="Edit Student"
+        tools:layout="@layout/fragment_edit_student" >
+        <argument
+            android:name="studentName"
+            app:argType="string" />
+        <argument
+            android:name="studentId"
+            app:argType="string" />
+        <argument
+            android:name="studentPhone"
+            app:argType="string" />
+        <argument
+            android:name="studentAddress"
+            app:argType="string" />
+        <argument
+            android:name="studentIsChecked"
+            app:argType="boolean" />
+
+        <action
+            android:id="@+id/action_studentDetailsFragment_to_studentListFragment"
+            app:destination="@id/studentsListFragment" />
+        <action
+            android:id="@+id/action_studentEditFragment_to_studentDetailsFragment"
+            app:destination="@id/studentDetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/addStudentFragment"

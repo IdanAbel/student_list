@@ -49,6 +49,8 @@ class AddStudentFragment : Fragment() {
         val student = Student(
             name = binding?.nameEditText?.text?.toString() ?: "",
             id = binding?.idEditText?.text?.toString() ?: "",
+            address = binding?.addressEditText?.text?.toString() ?: "",
+            phone = binding?.phoneEditText?.text?.toString() ?: "",
             avatarUrl = "",
             isChecked = false
         )

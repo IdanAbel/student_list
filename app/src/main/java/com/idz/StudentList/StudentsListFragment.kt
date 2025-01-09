@@ -52,10 +52,9 @@ class StudentsListFragment : Fragment() {
             override fun onItemClick(student: Student?) {
                 Log.d("TAG", "On student clicked name: ${student?.name}")
 
-//                Navigation.findNavController(view).navigate(R.id.action_studentsListFragment_to_blueFragment)
 
                 student?.let {
-                    val action = StudentsListFragmentDirections.actionStudentsListFragmentToBlueFragment(it.name)
+                    val action = StudentsListFragmentDirections.actionStudentsListFragmentToStudentDetailsFragment(it.name, it.id, it.phone, it.address, it.isChecked)
                     binding?.root?.let {
                         Navigation.findNavController(it).navigate(action)
                     }

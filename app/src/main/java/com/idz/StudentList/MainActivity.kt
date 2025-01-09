@@ -32,14 +32,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        // TODO: 1 - Set up project
-        // TODO: 2 - Create nav_graph.xml and connect to nav host
-        // TODO: 3 - Connect list fragment with blue fragment action with back button
-        // TODO: 4 - Set navArgs for blue fragment
-        // TODO: 5 -
-        // TODO: 6 -
-        // TODO: 7 -
-
         val toolbar: Toolbar = findViewById(R.id.main_toolbar)
         toolbar.setBackgroundColor(Color.parseColor("#333333"))
         setSupportActionBar(toolbar)
@@ -55,11 +47,6 @@ class MainActivity : AppCompatActivity() {
 
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_bar)
         navController?.let { NavigationUI.setupWithNavController(bottomNavigationView, it) }
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu, menu)
-        return super.onCreateOptionsMenu(menu)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

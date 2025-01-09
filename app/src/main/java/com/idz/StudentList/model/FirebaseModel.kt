@@ -16,7 +16,7 @@ class FirebaseModel {
 
     init {
         val setting = firestoreSettings {
-            setLocalCacheSettings(memoryCacheSettings {  })
+            setLocalCacheSettings(memoryCacheSettings { })
         }
 
         database.firestoreSettings = setting
@@ -51,6 +51,7 @@ class FirebaseModel {
                         }
                         callback(students)
                     }
+
                     false -> callback(listOf())
                 }
             }
@@ -63,6 +64,15 @@ class FirebaseModel {
                 callback()
             }
     }
+
+    fun deleteStudentById(studentId: String, callback: EmptyCallback) {
+        database.collection(Constants.COLLECTIONS.STUDENTS).document(studentId)
+            .delete()
+            .addOnCompleteListener {
+                callback()
+            }
+    }
+
 }
 
 /*
